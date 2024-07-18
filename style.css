@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #252b42;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.brand h1{
+    color: #fff;
+    font-size: 65px;
+    padding: 10px;
+    margin: 6px;
+}
+.menus ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    margin: 6px;
+}
+.menus ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.button-grp ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    margin: 6px;
+}
+.button-grp button{
+    padding: 10px 25px;
+}
+.btn1{
+    background-color: #ffffff00;
+    color: #fff;
+    border: none;
+}
+.btn2{
+    background-color: #23a6f0;
+    color: #fff;
+    border: none;
+}
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 0;
+}
+.content-part {
+    text-align: center;
+    width: 600px;
+}
+.content-part h4{
+    color: #23a6f0;
+    padding: 10px;
+    margin: 6px;
+}
+.content-part h1 {
+    color: #fff;
+    font-size: 75px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 6px;
+}
+.content-part p{
+    color: #fff;
+    font-size: 19px;
+    padding: 10px;
+    margin: 6px;
+}
+.btn-grp button{
+    padding: 10px 25px;
+}
+.btn11{
+    background-color: #23a6f0;
+    border: #23a6f0;
+    color: #fff;
+    margin: 6px 10px;
+}
+.btn22{
+    background-color: transparent;
+    color: #23a6f0;
+    border: 1px solid #23a6f0;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs{
+    margin: 10px;
+    background-color: #fff;
+    padding: 25px 25px;
+    width: 250px;
+}
+.icon {
+    font-size: 26px;
+    border: 1px solid #23a6f0;
+    width: 50px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs h2 {
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px;
+}
+.boxs hr{
+    border: 2px solid red;
+    width: 75px;
+    margin: 5px 5px 15px 15px;
+}
+.boxs p{
+    text-align: justify;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        background-color: #23a6f0;
+    }    
+    header {
+        display: block;
+    }
+    .brand h1 {
+        font-size: 42px;
+    }
+    .menus ul li {
+        display: block;
+    }
+    .content-part h1{
+        font-size: 38px;
+    }
+    .main-box{
+        display: block;
+    }
+    .boxs {
+        width: inherit;
+    }
+  }

@@ -1,0 +1,220 @@
+/* primary color rgb(29 82 83)
+secondary color rgb(72 21 18);
+tersery colr rgb(236 237 232) */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: antiquewhite;
+    padding: 15px 0;
+}
+.logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+}
+.logo h4{
+    color: rgb(72 21 18);
+}
+.menus ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+.menus ul li:hover{
+    background-color: rgba(72, 21, 18, 0.313) ;
+    border-radius: 30px;
+}
+.menus ul li a{
+    color: rgb(72 21 18);
+    text-decoration: none;
+}
+.menus ul li .start{
+    background-color: rgb(72 21 18) ;
+    padding: 15px;
+    color: #fff;
+    border-radius: 30px;
+}
+.menus ul li:nth-child(5):hover{
+    background-color: inherit;
+}
+
+.first-section{
+    background-image: url('imgs/working-img4.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    position: relative;
+}
+.first-content-part {
+    background-color: rgb(29 82 83 / 78%);
+    color: #fff;
+    width: 465px;
+    padding: 30px 25px;
+    border-radius: 20px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+.first-content-part h3{
+    font-size: 26px;
+    padding: 10px;
+}
+.first-content-part h1{
+    font-size: 66px;
+    padding: 10px;
+}
+.first-content-part p{
+    font-size: 16px;
+    padding: 10px;
+}
+.first-content-part button{
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.about-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236 237 232);
+    padding: 75px 0;
+}
+.left-content-part {
+    color: rgb(72 21 18);
+    padding: 30px 50px;
+    position: relative;
+    width: 750px;
+}
+.left-content-part h3{
+    font-size: 26px;
+}
+.left-content-part h1{
+    font-size: 56px;
+}
+.left-content-part p{
+    font-size: 18px;
+}
+.line{
+    position: absolute;
+    left: 30px;
+}
+hr {
+    border: 2px solid green;
+    height: 180px;
+    width: 0px;
+}
+.right-img-part img{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid green;
+}
+
+.business-section {
+    text-align: center;
+    padding: 75px 0;
+    background-color: rgb(29 82 83);
+    color: #fff;
+}
+.overall-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.business-img-part img{
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+}
+.business-content-part{
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    text-align: left;
+}
+.fourth-section{
+    background-color: rgb(236 237 232);
+}
+.fourth-section h1{
+   color:  rgb(29 82 83);
+}
+.fourth-section p{
+    color: rgb(72 21 18);
+}
+.fourth-section button{
+    padding: 15px 50px;
+    margin: 10px;
+    background: rgb(29 82 83);
+    border-radius: 30px;
+    color: #fff;
+    border: 1px solid rgb(29 82 83);
+}
+footer{
+    background-color: rgb(29 82 83);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    padding: 75px 0;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  header{
+    display: block;
+  }
+  .menus ul li{
+    display: block  ;
+  }
+  .first-section{
+    height: 150vh;
+  }
+  .first-content-part {
+    width: inherit;
+    top: 20px;
+    left: 0;
+}
+
+.first-content-part h3{
+    font-size: 18px;
+}
+.first-content-part h1{
+    font-size: 30px;
+}
+.first-content-part p{
+    font-size: 13px;
+}
+.about-section{
+    display: block;
+}
+.left-content-part {
+    width: inherit  ;
+}
+.overall-content{
+    display: block;
+}  
+.business-img-part img {
+    width: 100%;
+    margin: inherit;
+}  
+.business-content-part {
+    width: inherit;
+}
+footer{
+    display: block;
+}    
+  }
